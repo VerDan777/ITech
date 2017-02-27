@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -40,24 +39,6 @@
             top: 15px;
 
         }
-        #featured-carousel .featured-carousel-item .featured-product-title span {
-            background-color: rgba(0, 0, 0, 0.2);
-            bottom: 40%;
-            font-size: 24px;
-            left: 0;
-            letter-spacing: 0.05em;
-            line-height: 30px;
-            margin: 0 auto;
-            padding: 15px;
-            position: absolute;
-            right: 0;
-            text-align: center;
-            top: auto;
-            transform: translateY(50%);
-            white-space: normal;
-            width: 100%;
-            z-index: 3;
-        }
 
 
     </style>
@@ -80,7 +61,7 @@
     <link rel='shortlink' href='http://demo.wenthemes.com/clean-commerce-pro/' />
     <link rel="alternate" type="application/json+oembed" href="http://demo.wenthemes.com/clean-commerce-pro/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.wenthemes.com%2Fclean-commerce-pro%2F" />
     <link rel="alternate" type="text/xml+oembed" href="http://demo.wenthemes.com/clean-commerce-pro/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.wenthemes.com%2Fclean-commerce-pro%2F&#038;format=xml" />
-    <link rel="stylesheet" href="ITech.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
     <script src="https://use.fontawesome.com/fd21aa618f.js"></script>
 </head>
 
@@ -143,7 +124,7 @@
             <!-- #quick-contact -->
 
             <div class="header-social-wrapper" style="position:relative;top:-15px;">
-                <div class="widget clean_commerce_widget_social"><ul id="menu-social-menu" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><i class="fa fa-instagram" aria-hidden="true"><a class="fa fa-instagram" href="http://instagram.com"><span class="screen-reader-text"></span></a></i></li>
+                <div class="widget clean_commerce_widget_social"><ul id="menu-social-menu" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><i class="fa fa-instagram" aria-hidden="true"><a href="http://instagram.com"><span class="screen-reader-text"></span></a></i></li>
                     <li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="http://twitter.com"><span class="screen-reader-text">Twitter</span></a></li>
                     <li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="http://linkedin.com"><span class="screen-reader-text">Linkedin</span></a></li>
                 </ul></div></div><!-- .header-social-wrapper -->
@@ -153,28 +134,23 @@
 
     <header id="masthead" class="site-header" role="banner"><div class="container"><div class="inner-wrapper">  <div class="site-branding">
 
-<a href="http://demo.wenthemes.com/clean-commerce-pro/" class="custom-logo-link"><iframe src="https://srv3.imgonline.com.ua/result_img/imgonline-com-ua-Resize-pYKdsFIR89m9c.jpg"  frameborder='no' scrolling='no'width='350px' height='70px'></iframe></a>
+        <a href="http://demo.wenthemes.com/clean-commerce-pro/" class="custom-logo-link"><iframe src='https://srv3.imgonline.com.ua/result_img/imgonline-com-ua-Resize-dkV5qfwQjkUhV09.jpg'  frameborder='no' scrolling='no'width='350px' height='70px'></iframe></a>
 
     </div><!-- .site-branding -->
-        <div id="right-header" style="text-indent: 1.1em;">
-           <div> <i class="fa fa-users" aria-hidden="true" style="position: relative;right: -95px; top:27px"></i>
-               <i class="fa fa-truck" aria-hidden="true" style="position: relative;left: 145px; top:27px"></i>
-               <i class="fa fa-credit-card" aria-hidden="true" style="position: relative;left: 205px; top:27px"></i>
-               <i class="fa fa-phone" aria-hidden="true" style="position: relative;left: 256px; top:27px"></i>
-           </div>
-            <nav id="header-nav" class="menu-top-menu-container"><ul id="menu-top-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="http://demo.wenthemes.com/clean-commerce-pro/blog/">Кто мы</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://demo.wenthemes.com/clean-commerce-pro/contact-us/">Доставка</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://demo.wenthemes.com/clean-commerce-pro/about-us/">Оплата</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://demo.wenthemes.com/clean-commerce-pro/my-account-2/">Контакты</a></li>
+        <div id="right-header">
+            <nav id="header-nav" class="menu-top-menu-container"><ul id="menu-top-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="http://demo.wenthemes.com/clean-commerce-pro/blog/">Blog</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://demo.wenthemes.com/clean-commerce-pro/contact-us/">Contact Us</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://demo.wenthemes.com/clean-commerce-pro/about-us/">About Us</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://demo.wenthemes.com/clean-commerce-pro/my-account-2/">My Account</a></li>
             </ul></nav>
             <div id="cart-section">
                 <ul>
                     <li class="account-login">
-                        <a href="http://demo.wenthemes.com/clean-commerce-pro/my-account__trashed/">Войти /Зарегистрироваться</a>
-
+                        <a href="http://demo.wenthemes.com/clean-commerce-pro/my-account__trashed/">Login / Register</a>
+                        <i class="fa fa-vk" aria-hidden="true"></i>
                     </li>
-                    <li class="cart-price"><a href="http://demo.wenthemes.com/clean-commerce-pro/cart/"><strong>Сумма</strong>&nbsp;/&nbsp;<span class="amount"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"><i  style="position: relative;right: 10px;top:0px;" class="fa fa-rub" aria-hidden="true"></i></span>0.00</span></span></a></li>
-                    <li class="cart-icon"><a href="http://demo.wenthemes.com/clean-commerce-pro/cart/"><strong>0</strong><span class="cart-icon-handle" style="right: 35%;"></span></a></li>
+                    <li class="cart-price"><a href="http://demo.wenthemes.com/clean-commerce-pro/cart/"><strong>Shopping Cart</strong>&nbsp;/&nbsp;<span class="amount"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>0.00</span></span></a></li>
+                    <li class="cart-icon"><a href="http://demo.wenthemes.com/clean-commerce-pro/cart/"><strong>0</strong><span class="cart-icon-handle"></span></a></li>
                 </ul>
             </div>
             <!-- .cart-section -->
@@ -211,7 +187,7 @@
                         </ul>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156" >
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/multiple-menu/">Компьютеры</a>
+                        <a href="http://demo.wenthemes.com/clean-commerce-pro/multiple-menu/">Компьютеры</a>
                         <ul class="sub-menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="http://demo.wenthemes.com/clean-commerce-pro/left-sidebar/">Left Sidebar</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="http://demo.wenthemes.com/clean-commerce-pro/right-sidebar/">Right Sidebar</a></li>
@@ -220,11 +196,11 @@
                     </li>
 
 
-                 <!--   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://demo.wenthemes.com/clean-commerce-pro/shop/">Shop</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://demo.wenthemes.com/clean-commerce-pro/about-us/">About Us</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="http://demo.wenthemes.com/clean-commerce-pro/blog/">Blog</a></li>
-                </ul>--></ul></div>	<div>	            </div><!-- .menu-content -->
-        </div></nav><!-- #site-navigation -->
+                    <!--   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://demo.wenthemes.com/clean-commerce-pro/shop/">Shop</a></li>
+                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://demo.wenthemes.com/clean-commerce-pro/about-us/">About Us</a></li>
+                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="http://demo.wenthemes.com/clean-commerce-pro/blog/">Blog</a></li>
+                   </ul>--></div>		            </div><!-- .menu-content -->
+        </nav><!-- #site-navigation -->
 
         <div class="header-search-box">
             <a href="#" class="search-icon"><i class="fa fa-search"></i></a>
@@ -232,9 +208,9 @@
                 <form role="search" method="get" class="search-form" action="http://demo.wenthemes.com/clean-commerce-pro/">
                     <label>
                         <span class="screen-reader-text">Search for:</span>
-                        <input type="search" class="search-field" placeholder="Поиск..." value="" name="s" title="Search for:" />
+                        <input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:" />
                     </label>
-                    <input type="submit" class="search-submit" value="Поиск" /></form>		    </div><!-- .search-box-wrap -->
+                    <input type="submit" class="search-submit" value="Search" /></form>		    </div><!-- .search-box-wrap -->
         </div><!-- .header-search-box -->
 
     </div> <!-- .container -->
@@ -243,15 +219,15 @@
 
     <div id="featured-carousel">
         <div class="container">
-            <div class="featured-product-carousel-wrapper"  style="font-size:30px;" data-slick='{"slidesToShow":3,"slidesToScroll":1,"dots":false,"prevArrow":"<span data-role=\"none\" class=\"slick-prev\" tabindex=\"0\"><i class=\"fa fa-angle-left\" aria-hidden=\"true\"><\/i><\/span>","nextArrow":"<span data-role=\"none\" class=\"slick-next\" tabindex=\"0\"><i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i><\/span>","responsive":[{"breakpoint":1024,"settings":{"slidesToShow":3}},{"breakpoint":768,"settings":{"slidesToShow":2}},{"breakpoint":480,"settings":{"slidesToShow":1}}]}'>
+            <div class="featured-product-carousel-wrapper" data-slick='{"slidesToShow":3,"slidesToScroll":1,"dots":false,"prevArrow":"<span data-role=\"none\" class=\"slick-prev\" tabindex=\"0\"><i class=\"fa fa-angle-left\" aria-hidden=\"true\"><\/i><\/span>","nextArrow":"<span data-role=\"none\" class=\"slick-next\" tabindex=\"0\"><i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i><\/span>","responsive":[{"breakpoint":1024,"settings":{"slidesToShow":3}},{"breakpoint":768,"settings":{"slidesToShow":2}},{"breakpoint":480,"settings":{"slidesToShow":1}}]}'>
 
                 <div class="featured-carousel-item">
                     <div class="featured-carousel-item-thumb">
                         <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title-4/">
                             <div class="product-thumb">
-                                <img src="http://www.1shop.lv/files/products/original/800506-30971042_3706.jpg"  width="1200% " height="1200%" alt="" />
+                                <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/smartwatch-828786_1920-400x400.jpg" alt="" />
                             </div><!-- .product-thumb -->
-                            <h3 class="featured-product-title"><span  style="bottom: 51%">Ноутбуки</span></h3>
+                            <h3 class="featured-product-title"><span>Smart Watch</span></h3>
                         </a>
                     </div><!-- .featured-carousel-item-thumb -->
                 </div><!-- .featured-carousel-item -->
@@ -261,9 +237,9 @@
                     <div class="featured-carousel-item-thumb">
                         <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title-3/">
                             <div class="product-thumb">
-                                <img src="http://alterainvest.ru/upload/iblock/89d/89d741e368aa550913941af845e483e6.jpg " width="323%";height="323px;" alt="" />
+                                <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothing-964880_640-400x400.jpg" alt="" />
                             </div><!-- .product-thumb -->
-                            <h3 class="featured-product-title"><span>Планшеты</span></h3>
+                            <h3 class="featured-product-title"><span>Blue Jeans</span></h3>
                         </a>
                     </div><!-- .featured-carousel-item-thumb -->
                 </div><!-- .featured-carousel-item -->
@@ -273,9 +249,9 @@
                     <div class="featured-carousel-item-thumb">
                         <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title-2/">
                             <div class="product-thumb">
-                                <img src="http://ogo1.ru/upload/iblock/59f/59f5287dd1e12ae6ae235cd7517f7006.jpeg" alt="" />
+                                <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1.jpg" alt="" />
                             </div><!-- .product-thumb -->
-                            <h3 class="featured-product-title"><span style="bottom: 61.75%">Телефоны</span></h3>
+                            <h3 class="featured-product-title"><span>Smart Watch</span></h3>
                         </a>
                     </div><!-- .featured-carousel-item-thumb -->
                 </div><!-- .featured-carousel-item -->
@@ -283,11 +259,11 @@
 
                 <div class="featured-carousel-item">
                     <div class="featured-carousel-item-thumb">
-                        <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title-2/">
+                        <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title/">
                             <div class="product-thumb">
-                                <img src="http://www.nanya.ru/media/uploads/filebrowser/vt-1835_b.jpg"   alt="" />
+                                <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product2.jpg" alt="" />
                             </div><!-- .product-thumb -->
-                            <h3 class="featured-product-title"><span style="bottom: 115px">Бытовая техника</span></h3>
+                            <h3 class="featured-product-title"><span>Clothes</span></h3>
                         </a>
                     </div><!-- .featured-carousel-item-thumb -->
                 </div><!-- .featured-carousel-item -->
@@ -295,12 +271,7 @@
 
             </div><!-- .featured-product-carousel-wrapper -->
         </div><!-- .container -->
-    </div>
-    <div>
-
-
-
-    </div>d><!-- #featured-carousel -->
+    </div><!-- #featured-carousel -->
     <div id="sidebar-front-page-widget-area" class="widget-area"><aside id="clean-commerce-services-2" class="widget clean_commerce_widget_services"><div class="container">
 
         <div class="service-block-list service-col-3">
@@ -312,10 +283,10 @@
                         <div class="service-block-inner-content">
                             <h3 class="service-item-title">
                                 <a href="http://demo.wenthemes.com/clean-commerce-pro/youre-in-good-company/">
-                                    <p><h4><b class="Strongsides" style="font-size: 25px;"> Огромный ассортимент различных товаров</b></h4></p></a>
+                                    You&#8217;re in good company											</a>
                             </h3>
                             <div class="service-block-item-excerpt">
-                                <p>Более 100 наименований товаров ведущих мировых брендов</p>
+                                <p>With over 2 million fans and customers, you're in good company.</p>
                             </div><!-- .service-block-item-excerpt -->
 
                         </div><!-- .service-block-inner-content -->
@@ -323,14 +294,14 @@
                 </div><!-- .service-block-item -->
                 <div class="service-block-item">
                     <div class="service-block-inner">
-                        <a href="http://demo.wenthemes.com/clean-commerce-pro/easy-returns/"><i class="fa fa-rub" aria-hidden="true"></i></a>
+                        <a href="http://demo.wenthemes.com/clean-commerce-pro/easy-returns/"><i class="fa fa-dollar"></i></a>
                         <div class="service-block-inner-content">
                             <h3 class="service-item-title">
                                 <a href="http://demo.wenthemes.com/clean-commerce-pro/easy-returns/">
-                                    <p><h4><b class="Strongsides" style="font-size: 25px;"> За качество отвечаем!</b></h4></a>
+                                    Easy Returns											</a>
                             </h3>
                             <div class="service-block-item-excerpt">
-                               <p>Мы продаем только те товары, которые купили бы себе сами</p>
+                                <p>Return within 30 days for a full refund or exchange, it's your choice.</p>
                             </div><!-- .service-block-item-excerpt -->
 
                         </div><!-- .service-block-inner-content -->
@@ -342,11 +313,10 @@
                         <div class="service-block-inner-content">
                             <h3 class="service-item-title">
                                 <a href="http://demo.wenthemes.com/clean-commerce-pro/free-shipping-on-all-orders/">
-                                    <p><h4><b class="Strongsides" style="font-size: 25px;">Оперативная и качественная доставка</b></h4>
-                                  	</a>
+                                    FREE Shipping on ALL orders											</a>
                             </h3>
                             <div class="service-block-item-excerpt">
-                                  <p>Мы доставляем товар по Калининграду и области быстро и профессионально. Бесплатно либо по минимальным тарифам!</p>
+                                <p>We can ship anywhere in the world, free of charge.</p>
                             </div><!-- .service-block-item-excerpt -->
 
                         </div><!-- .service-block-inner-content -->
@@ -359,68 +329,79 @@
 
 
 
-    </div></aside><aside id="clean-commerce-products-slider-3" class="widget clean_commerce_widget_products_slider"><div class="container">	<div class="cycle-slideshow side-banner-enabled"
+    </div></aside><aside id="clean-commerce-products-slider-3" class="widget clean_commerce_widget_products_slider"><div class="container">					<div class="cycle-slideshow side-banner-enabled"
                                                                                                                                                                     data-cycle-slides="> article"
                                                                                                                                                                     data-cycle-auto-height="container"
-                                                                                                                                                                    data-cycle-timeout="5000"
+                                                                                                                                                                    data-cycle-timeout="3000"
     >
-
-            <!-- .product-caption -->
-
+        <div class="cycle-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+        <div class="cycle-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+        <article>
+            <div class="product-wrapper">
+                <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2.jpg" alt="" />									<div class="product-caption">
+                <h4 class="product-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product/women-fashion/">Women Fashion</a></h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and...</p>
+                <a class="button" href="http://demo.wenthemes.com/clean-commerce-pro/product/women-fashion/" class="product-read-more">View details</a>
+            </div><!-- .product-caption -->
+            </div><!-- .product-wrapper -->
         </article>
 
+        <article>
+            <div class="product-wrapper">
+                <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide-1.jpg" alt="" />									<div class="product-caption">
+                <h4 class="product-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product/46/">Women Fashion</a></h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and...</p>
+                <a class="button" href="http://demo.wenthemes.com/clean-commerce-pro/product/46/" class="product-read-more">View details</a>
+            </div><!-- .product-caption -->
+            </div><!-- .product-wrapper -->
+        </article>
 
 
     </div><!-- .cycle-slideshow -->
         <div class="side-banner">
-           <!-- .side-banner -->
-    </div> <aside></aside><aside id="clean-commerce-products-category-grid-2" class="widget clean_commerce_widget_products_category_grid"><div class="container"><h2 class="widget-title"><span>Праздничные скидки</span></h2><p class="widget-subtitle">Latest Category</p><div class="inner-wrapper">
+            <a href="http://wenthemes.com"><img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/beside-slider-image.jpg" alt="" /></a>				</div> <!-- .side-banner -->
+    </div></aside><aside id="clean-commerce-call-to-action-3"  style="background-image:url(http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women3.jpg);"  class="cta-layout-1 widget clean_commerce_widget_call_to_action"><div class="container"><div class="cta-wrapper">			<div class="call-to-action-content">
+        <h2 class="widget-title"><span>Welcome To Clean Commerce Pro</span></h2>								    <div class="call-to-action-description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consec tetur adipisicing elit dignissim dapib tumst.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.Proin...</p>
+    </div><!-- .call-to-action-description -->
+        <div class="call-to-action-buttons">
+            <a href="" class="custom-button btn-call-to-action btn-call-to-primary">Buy Now</a>
+        </div><!-- .call-to-action-buttons -->
+    </div><!-- .call-to-action-content -->
+    </div><!-- .cta-wrapper --></div></aside><aside id="clean-commerce-products-category-grid-2" class="widget clean_commerce_widget_products_category_grid"><div class="container"><h2 class="widget-title"><span>Product By Category</span></h2><p class="widget-subtitle">Latest Category</p>				<div class="inner-wrapper">
         <div class="clean-commerce-products-category products-category-grid-4">
 
             <div class="categories">
 
-                <div class="category-item" >
+                <div class="category-item">
                     <a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/clothes-collection/">
-                        <img src="http://www.reggiesclub.com/wp-content/uploads/2015/01/Audio-Technica-ATH-CKM500i-In-Ear-Headset-for-Smartphone-85a8b127-97c4-437e-8386-1ebb4e3f4168_600.jpg" alt="" />
+                        <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothes-922988_640-300x300.jpg" alt="" />
                     </a>
-                    <h4 class="category-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/clothes-collection/"><b>Audio-Technica ATH-CK313M&nbsp;</b></a>
-                        <p class="offers" >1800 руб.</p>
-                        <b class="undertext">1590 руб.</b>
-                    </h4>
-
-
+                    <h4 class="category-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/clothes-collection/">Clothes collection&nbsp;(5)</a></h4>
                 </div><!-- .category-item -->
 
 
                 <div class="category-item">
                     <a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/featured-product/">
-                        <img src="http://apple.5120.ru/upload/iblock/f9d/f9d7d58aade440723d802c5ca67eabdd.jpg" alt="" />
+                        <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothing-964880_640-300x300.jpg" alt="" />
                     </a>
-                    <h4 class="category-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/featured-product/">&nbsp;<b>APPLE MacBook Air 13 MJVE2RU/A</b>></a>
-                        <p class="offers" >80000 руб.</p>
-                        <b class="undertext">73990 руб.</b>
-                    </h4>
+                    <h4 class="category-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/featured-product/">Featured Product&nbsp;(4)</a></h4>
                 </div><!-- .category-item -->
 
 
                 <div class="category-item">
                     <a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/men-collection/">
-                        <img src="http://icases.com.ua/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/7/0/7091ccd2caa7_1_1.jpg" alt="" />
+                        <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/offer_image_2-300x300.jpg" alt="" />
                     </a>
-                    <h4 class="category-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/men-collection/"><b>Apple iPhone 7 32Gb розовое золото</b></a>
-                        <p class="offers" >42 990 руб.</p>
-                        <b class="undertext">40000 руб.</b>
-                    </h4>
+                    <h4 class="category-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/men-collection/">Men Collection&nbsp;(4)</a></h4>
                 </div><!-- .category-item -->
 
 
                 <div class="category-item">
                     <a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/watch-collection/">
-                        <img src="http://itm-market.ru/wa-data/public/shop/products/79/69/146979/images/245720/245720.750x0.jpg" alt="" />
+                        <img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1-300x300.jpg" alt="" />
                     </a>
-                    <h4 class="category-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/watch-collection/"><b>Lenovo IdeaTab A7600 16Gb 3G</b>&nbsp;(3)</a>
-                        <p class="offers" >14 490руб.</p>
-                        <b class="undertext">12 490 руб.</b></h4>
+                    <h4 class="category-title"><a href="http://demo.wenthemes.com/clean-commerce-pro/product-category/watch-collection/">Watch collection&nbsp;(3)</a></h4>
                 </div><!-- .category-item -->
 
 
@@ -428,165 +409,140 @@
 
         </div><!-- .clean-commerce-products-category -->
     </div> <!-- .inner-wrapper -->
-    </div></aside><aside id="clean-commerce-featured-products-carousel-2" class="widget clean_commerce_widget_featured_products_carousel"><div class="container"><h2 class="widget-title"><span><a class="activelink" href="">Тв и мультимедиа</a></span></h2><p class="widget-subtitle">Recent Featured Products</p>				<div class="clean-commerce-woocommerce">
+    </div></aside><aside id="clean-commerce-featured-products-carousel-2" class="widget clean_commerce_widget_featured_products_carousel"><div class="container"><h2 class="widget-title"><span>Featured Product</span></h2><p class="widget-subtitle">Recent Featured Products</p>				<div class="clean-commerce-woocommerce">
         <div class="clean-commerce-woocommmerce-wrapper">
             <ul class="products clean-commerce-featured-products-carousel" data-slick='{"slidesToShow":4,"dots":false,"prevArrow":"<span data-role=\"none\" class=\"slick-prev\" tabindex=\"0\"><i class=\"fa fa-angle-left\" aria-hidden=\"true\"><\/i><\/span>","nextArrow":"<span data-role=\"none\" class=\"slick-next\" tabindex=\"0\"><i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i><\/span>","responsive":[{"breakpoint":1024,"settings":{"slidesToShow":4}},{"breakpoint":800,"settings":{"slidesToShow":3}},{"breakpoint":659,"settings":{"slidesToShow":2}},{"breakpoint":479,"settings":{"slidesToShow":1}}]}'>
 
 
                 <li class="post-94 product type-product status-publish has-post-thumbnail product_cat-men-collection first instock featured shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/shoe-for-men/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="https://office.megabitcomp.ru/megabit_pic/298c4960-b080-11e6-80fe-0cc47a169450.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="chucks-1275904_640" title="chucks-1275904_640" srcset="https://office.megabitcomp.ru/megabit_pic/298c4960-b080-11e6-80fe-0cc47a169450.jpg 300w,https://office.megabitcomp.ru/megabit_pic/298c4960-b080-11e6-80fe-0cc47a169450.jpg150w, https://office.megabitcomp.ru/megabit_pic/298c4960-b080-11e6-80fe-0cc47a169450.jpg180w,https://office.megabitcomp.ru/megabit_pic/298c4960-b080-11e6-80fe-0cc47a169450.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3><b style="font-size: 25px;font-weight: 600">LCD LG OLED55B6J</b></h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/shoe-for-men/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="chucks-1275904_640" title="chucks-1275904_640" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-400x400.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Shoe For Men</h3>
 
-                        <span class="price"><span class="woocommerce-Price-amount amount" style="font-size: 20px;color:green">187.000.00 <span class="woocommerce-Price-currencySymbol">&#8381</span> </span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=94" data-quantity="1" data-product_id="94" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Подробнее</a></li>
-                <li class="post-94 product type-product status-publish has-post-thumbnail product_cat-men-collection first instock featured shipping-taxable purchasable product-type-simple">
-
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/shoe-for-men/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://i.eldorado.com.ua/goods/4726/4726326.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="chucks-1275904_640" title="chucks-1275904_640" srcset="http://i.eldorado.com.ua/goods/4726/4726326.jpg 300w,http://i.eldorado.com.ua/goods/4726/4726326.jpg  150w, http://i.eldorado.com.ua/goods/4726/4726326.jpg. 180w,http://i.eldorado.com.ua/goods/4726/4726326.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3><b style="font-size: 25px;font-weight: 600">PS4 500GB</b></h3>
-
-                        <span class="price"><span class="woocommerce-Price-amount amount" style="font-size: 20px;color:green">21990.00 <span class="woocommerce-Price-currencySymbol">&#8381</span> </span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=94" data-quantity="1" data-product_id="94" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Подробнее</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>65.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=94" data-quantity="1" data-product_id="94" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-86 product type-product status-publish has-post-thumbnail product_cat-clothes-collection  instock featured shipping-taxable purchasable product-type-simple">
-                        <a href="http://demo.wenthemes.com/clean-commerce-pro/product/white-undershirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="https://vstroyka-solo.ru/photo/319422.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women4" title="women4" srcset="https://vstroyka-solo.ru/photo/319422.png 300w,https://vstroyka-solo.ru/photo/319422.png 150w,https://vstroyka-solo.ru/photo/319422.png 180w,https://vstroyka-solo.ru/photo/319422.png400w,https://vstroyka-solo.ru/photo/319422.png 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3><b style="font-size: 25px;font-weight: 600">Колонки 2.0 Sven SPS-707</b></h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/white-undershirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women4" title="women4" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>White undershirt</h3>
 
-                            <span class="price"><span class="woocommerce-Price-amount amount" style="font-size: 20px;color:green">3400.00<span class="woocommerce-Price-currencySymbol">&#8381</span></span></span>>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=86" data-quantity="1" data-product_id="86" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Подробнее</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>85.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=86" data-quantity="1" data-product_id="86" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-82 product type-product status-publish has-post-thumbnail product_cat-clothes-collection last instock featured shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/uk-tshirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="https://cdn.crymbest.com/images/item-15017-1.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women2" title="women2" srcset="https://cdn.crymbest.com/images/item-15017-1.jpg 300w, https://cdn.crymbest.com/images/item-15017-1.jpg150w,https://cdn.crymbest.com/images/item-15017-1.jpg 180w, https://cdn.crymbest.com/images/item-15017-1.jpg 400w, https://cdn.crymbest.com/images/item-15017-1.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3><b style="font-size: 25px;font-weight: 600">
-                        Электронная книга Ritmix RBK-615</b></h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/uk-tshirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women2" title="women2" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>UK Tshirt</h3>
 
-                        <span class="price"><span class="woocommerce-Price-amount amount" style="font-size: 20px;color:green">4800.00<span class="woocommerce-Price-currencySymbol"style="font-size: 20px;color:green">&#8381</span></span>
-                        </span>></a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=82" data-quantity="1" data-product_id="82" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Подробнее</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>82.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=82" data-quantity="1" data-product_id="82" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-51 product type-product status-publish has-post-thumbnail product_cat-women-fashion first instock featured shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/women-fashion/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://images.tomas.by/i/firms/49/5282/5282649/gps-navigator-prestigio-geovision-5166_75bfcae6f0deb4f_800x600.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product-slide2" title="product-slide2" srcset="http://images.tomas.by/i/firms/49/5282/5282649/gps-navigator-prestigio-geovision-5166_75bfcae6f0deb4f_800x600.png 300w, http://images.tomas.by/i/firms/49/5282/5282649/gps-navigator-prestigio-geovision-5166_75bfcae6f0deb4f_800x600.png 150w,http://images.tomas.by/i/firms/49/5282/5282649/gps-navigator-prestigio-geovision-5166_75bfcae6f0deb4f_800x600.png180w,http://images.tomas.by/i/firms/49/5282/5282649/gps-navigator-prestigio-geovision-5166_75bfcae6f0deb4f_800x600.png 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3><b style="font-size: 25px;font-weight: 600">Prestigio GeoVision 5166</b></h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/women-fashion/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product-slide2" title="product-slide2" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-400x400.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Women Fashion</h3>
 
-                        <span class="price"><span class="woocommerce-Price-amount amount" style="font-size: 20px;color:green">4990.00<span class="woocommerce-Price-currencySymbol">&#8381</span></span>
-                        </span>></a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=51" data-quantity="1" data-product_id="51" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Подробнее</a></li>
-
-                <li class="post-82 product type-product status-publish has-post-thumbnail product_cat-clothes-collection last instock featured shipping-taxable purchasable product-type-simple slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 191px;" data-slick-index="-4" aria-hidden="true">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/uk-tshirt/" class="woocommerce-LoopProduct-link" tabindex="-1"><img width="300" height="300" src="http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women2" title="women2" srcset="http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg300w, http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg 150w,http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg180w,http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg 400w,http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg 600w" sizes="(max-width: 300px) 100vw, 300px"><h3>UK Tshirt</h3>
-
-                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">£</span>82.00&#8381</span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=82" data-quantity="1" data-product_id="82" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart" tabindex="-1">Подробнее</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>33.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=51" data-quantity="1" data-product_id="51" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-38 product type-product status-publish has-post-thumbnail product_cat-featured-product product_cat-watch-collection  instock featured shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title-4/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="smartwatch-828786_1920" title="smartwatch-828786_1920" srcset="http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg.jpg 150w, http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg 180w,http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg 600w, http://tg.tomsk.ru/upload/catalog/145/4372625/2745649.jpeg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3><b style="font-size: 25px;font-weight: 600">ADATA HV100 500GB</b></h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title-4/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/smartwatch-828786_1920-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="smartwatch-828786_1920" title="smartwatch-828786_1920" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/smartwatch-828786_1920-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/smartwatch-828786_1920-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/smartwatch-828786_1920-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/smartwatch-828786_1920-600x600.jpg 600w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/smartwatch-828786_1920-400x400.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Smart Watch</h3>
 
-                        <span class="price"><span class="woocommerce-Price-currencySymbol" style="font-size: 20px;color:green">5000.00 <span class="woocommerce-Price-currencySymbol">&#8381</span></span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=38" data-quantity="1" data-product_id="38" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Подробнее</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>80.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=38" data-quantity="1" data-product_id="38" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-35 product type-product status-publish has-post-thumbnail product_cat-clothes-collection product_cat-featured-product last instock featured shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="https://alloplus.by/upload/resize_cache/iblock/9a5/610_610_1c139fbc30734e2e08e99945f84bd972e/9a52546513a0b66ce25cac9ff269c4cb.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product2" title="product2" srcset="https://alloplus.by/upload/resize_cache/iblock/9a5/610_610_1c139fbc30734e2e08e99945f84bd972e/9a52546513a0b66ce25cac9ff269c4cb.jpg 300w,https://alloplus.by/upload/resize_cache/iblock/9a5/610_610_1c139fbc30734e2e08e99945f84bd972e/9a52546513a0b66ce25cac9ff269c4cb.jpg 150w,https://alloplus.by/upload/resize_cache/iblock/9a5/610_610_1c139fbc30734e2e08e99945f84bd972e/9a52546513a0b66ce25cac9ff269c4cb.jpg 180w,https://alloplus.by/upload/resize_cache/iblock/9a5/610_610_1c139fbc30734e2e08e99945f84bd972e/9a52546513a0b66ce25cac9ff269c4cb.jpg 426w" sizes="(max-width: 300px) 100vw, 300px" /><h3><b style="font-size: 25px;font-weight: 600">
-                        Prestigio RoadRunner 300i</b></h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/featured-product-title/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product2-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product2" title="product2" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product2-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product2-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product2-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product2.jpg 426w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Clothes</h3>
 
-                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"  style="font-size: 20px;color:green">3580.00<span class="woocommerce-Price-currencySymbol">&#8381</span></span></span>
-                   </span> </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=35" data-quantity="1" data-product_id="35" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Подробнее</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>49.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=35" data-quantity="1" data-product_id="35" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
             </ul><!-- .products -->
         </div>
     </div><!-- .woocommerce -->
-    </div>
-
-    </aside><aside id="clean-commerce-products-grid-2" class="widget clean_commerce_widget_products_grid"><div class="container"><h2 class="widget-title"><span><a class="activelink" href="">Ноутбуки и планшеты</a></span></h2><p class="widget-subtitle">Самые новые и по низкой цене</p><div class="inner-wrapper">
+    </div></aside><aside id="clean-commerce-products-grid-2" class="widget clean_commerce_widget_products_grid"><div class="container"><h2 class="widget-title"><span>Clothes Collections</span></h2><p class="widget-subtitle">Special category of products</p>				<div class="inner-wrapper">
         <div class="clean-commerce-woocommerce clean-commerce-woocommerce-product-grid-4">
 
             <ul class="products">
 
 
                 <li class="post-86 product type-product status-publish has-post-thumbnail product_cat-clothes-collection first instock featured shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/white-undershirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="https://www.gogol.ru/upload/iblock/c06/c0643d5769fda65df20daacfe4eb71cf.jpg " class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women4" title="women4" srcset="https://www.gogol.ru/upload/iblock/c06/c0643d5769fda65df20daacfe4eb71cf.jpg  300w, https://www.gogol.ru/upload/iblock/c06/c0643d5769fda65df20daacfe4eb71cf.jpg 150w, https://www.gogol.ru/upload/iblock/c06/c0643d5769fda65df20daacfe4eb71cf.jpgё  180w, https://www.gogol.ru/upload/iblock/c06/c0643d5769fda65df20daacfe4eb71cf.jpg 400w, https://www.gogol.ru/upload/iblock/c06/c0643d5769fda65df20daacfe4eb71cf.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Apple MacBook 12" MK4N2RU/A</h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/white-undershirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women4" title="women4" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women4.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>White undershirt</h3>
 
-                        <span class="price"><span class="woocommerce-Price-amount amount" style="font-size: 20px;color:green"><span class="woocommerce-Price-currencySymbol"style="font-size: 20px;color:green">92990.00 <span style="font-size: 20px;color:green" >&#8381</span></span></span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=86" data-quantity="1" data-product_id="86" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Купить</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>85.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=86" data-quantity="1" data-product_id="86" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-84 product type-product status-publish has-post-thumbnail product_cat-clothes-collection  instock shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/surplus-overalls/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://img.aleco.com.ua/products/_original/p2347_252172_planshet_apple_a1673_ipad_pro_9_7_inch_wi_fi_32gb_si.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women3" title="women3" srcset="http://img.aleco.com.ua/products/_original/p2347_252172_planshet_apple_a1673_ipad_pro_9_7_inch_wi_fi_32gb_si.jpg 300w, http://img.aleco.com.ua/products/_original/p2347_252172_planshet_apple_a1673_ipad_pro_9_7_inch_wi_fi_32gb_si.jpg150w, http://img.aleco.com.ua/products/_original/p2347_252172_planshet_apple_a1673_ipad_pro_9_7_inch_wi_fi_32gb_si.jpg 180w, http://img.aleco.com.ua/products/_original/p2347_252172_planshet_apple_a1673_ipad_pro_9_7_inch_wi_fi_32gb_si.jpg 400w,http://img.aleco.com.ua/products/_original/p2347_252172_planshet_apple_a1673_ipad_pro_9_7_inch_wi_fi_32gb_si.jpg600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Apple iPad Air 2 32Gb Wi-fi</h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/surplus-overalls/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women3-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women3" title="women3" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women3-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women3-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women3-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women3-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women3.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Surplus Overalls</h3>
 
-                        <span class="price" style="font-size: 20px;color:green"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol" >28990.00</span></span >&#8381</span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=84" data-quantity="1" data-product_id="84" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Купить</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>22.20</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=84" data-quantity="1" data-product_id="84" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-82 product type-product status-publish has-post-thumbnail product_cat-clothes-collection last instock featured shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/uk-tshirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="https://mcgrp.ru/images/1173654/1474714.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women2" title="women2" srcset="https://mcgrp.ru/images/1173654/1474714.jpg 300w,https://mcgrp.ru/images/1173654/1474714.jpg 150w, https://mcgrp.ru/images/1173654/1474714.jpg 180w, https://mcgrp.ru/images/1173654/1474714.jpg400w, https://mcgrp.ru/images/1173654/1474714.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Lenovo TAB 2 X30 16Gb LTE</h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/uk-tshirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women2" title="women2" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women2.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>UK Tshirt</h3>
 
-                        <span class="price" style="font-size: 20px;color:green"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">12790.00</span>&#8381</span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=82" data-quantity="1" data-product_id="82" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Купить</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>82.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=82" data-quantity="1" data-product_id="82" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-80 product type-product status-publish has-post-thumbnail product_cat-clothes-collection first instock shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/blue-red-shirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://www.regard.ru/photo/shop/230164_1.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women1" title="women1" srcset="http://www.regard.ru/photo/shop/230164_1.jpg 300w, http://www.regard.ru/photo/shop/230164_1.jpg 150w, http://www.regard.ru/photo/shop/230164_1.jpg 180w, http://www.regard.ru/photo/shop/230164_1.jpg 400w,http://www.regard.ru/photo/shop/230164_1.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Ноутбук HP 15-ac692ur (W6X34EA)</h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/blue-red-shirt/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women1-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="women1" title="women1" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women1-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women1-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women1-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women1-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/women1.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Blue &#038; Red shirt</h3>
 
-                        <span class="price" style="font-size: 20px;color:green" ><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">32990.00</span>&#8381</span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=80" data-quantity="1" data-product_id="80" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Купить</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>55.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=80" data-quantity="1" data-product_id="80" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
             </ul><!-- .products -->
 
         </div><!-- .woocommerce -->
     </div> <!-- .inner-wrapper -->
-    </div></aside>
-
-
-        <aside id="clean-commerce-call-to-action-2" class="cta-layout-2 widget clean_commerce_widget_call_to_action"><div class="container">
-            <div class="cta-wrapper" style=" background: #fff;overflow: hidden;text-align: left;border:7px double orange;">
-
-    <img src="http://fs.4geo.ru/get/editors/landingpage/1454407384-475028.png" alt="" height="1000px;" width="1000px;" />
-                <div class="call-to-action-content"   style="font-size: 35px; " >
-                <h2 class="widget-title" style="color:black;"><span  style="font-size: 35px; "><b>Акция</b></span></h2>
-                <div class="call-to-action-description" style="  font-size: 30px; font-weight:bold; line-height: 1.5;">
-
-        <p style="color: black;font-size: 30px; font-weight:bold; line-height: 1.5;">Скидка 5% на все категории товаров</p>
+    </div></aside><aside id="clean-commerce-call-to-action-2" class="cta-layout-2 widget clean_commerce_widget_call_to_action"><div class="container"><div class="cta-wrapper"><img src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/kids-p4.jpg" alt="" />			<div class="call-to-action-content">
+        <h2 class="widget-title"><span>WINTER SALE</span></h2>								    <div class="call-to-action-description">
+        <p>UPTO 70% DISCOUNT</p>
     </div><!-- .call-to-action-description -->
         <div class="call-to-action-buttons">
-            <a href="" class="custom-button btn-call-to-action btn-call-to-primary">Подробнее</a>
+            <a href="" class="custom-button btn-call-to-action btn-call-to-primary">Buy Now</a>
         </div><!-- .call-to-action-buttons -->
     </div><!-- .call-to-action-content -->
-    </div><!-- .cta-wrapper --></div></aside><aside id="clean-commerce-products-grid-3" class="widget clean_commerce_widget_products_grid"><div class="container"><h2 class="widget-title"><span><a class="activerlink" href="">Крупная бытовая техника</a></span></h2><p class="widget-subtitle"></p>	<div class="inner-wrapper">
+    </div><!-- .cta-wrapper --></div></aside><aside id="clean-commerce-products-grid-3" class="widget clean_commerce_widget_products_grid"><div class="container"><h2 class="widget-title"><span>Men Collections</span></h2><p class="widget-subtitle">Special category of products</p>				<div class="inner-wrapper">
         <div class="clean-commerce-woocommerce clean-commerce-woocommerce-product-grid-4">
 
             <ul class="products">
 
 
                 <li class="post-96 product type-product status-publish has-post-thumbnail product_cat-men-collection first instock shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/smart-watch/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://www.lg.com/ru/images/washing-machines/md05083120/gallery/FH2A8HDS4_Front_940x620_desktop01.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product1" title="product1" srcset="http://www.lg.com/ru/images/washing-machines/md05083120/gallery/FH2A8HDS4_Front_940x620_desktop01.jpg 300w,http://www.lg.com/ru/images/washing-machines/md05083120/gallery/FH2A8HDS4_Front_940x620_desktop01.jpg 150w,http://www.lg.com/ru/images/washing-machines/md05083120/gallery/FH2A8HDS4_Front_940x620_desktop01.jpg 768w, http://www.lg.com/ru/images/washing-machines/md05083120/gallery/FH2A8HDS4_Front_940x620_desktop01.jpg 1024w, http://www.lg.com/ru/images/washing-machines/md05083120/gallery/FH2A8HDS4_Front_940x620_desktop01.jpg 180w, http://www.lg.com/ru/images/washing-machines/md05083120/gallery/FH2A8HDS4_Front_940x620_desktop01.jpg 600w, http://www.lg.com/ru/images/washing-machines/md05083120/gallery/FH2A8HDS4_Front_940x620_desktop01.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Стиральная машина LG F14B3PDS7</h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/smart-watch/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="product1" title="product1" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1-768x768.jpg 768w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1-1024x1024.jpg 1024w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1-600x600.jpg 600w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product1.jpg 1080w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Smart Watch</h3>
 
-                        <span class="price"  style="font-size: 20px;color:green" ><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">49 990.00</span>&#8381</span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=96" data-quantity="1" data-product_id="96" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Купить</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>500.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=96" data-quantity="1" data-product_id="96" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-94 product type-product status-publish has-post-thumbnail product_cat-men-collection  instock featured shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/shoe-for-men/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://compstar.com.ua/uploads/shop/products/large/72163_0.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="chucks-1275904_640" title="chucks-1275904_640" srcset="http://compstar.com.ua/uploads/shop/products/large/72163_0.jpg 300w, http://compstar.com.ua/uploads/shop/products/large/72163_0.jpg http://compstar.com.ua/uploads/shop/products/large/72163_0.jpg 150w,http://compstar.com.ua/uploads/shop/products/large/72163_0.jpg180w, http://compstar.com.ua/uploads/shop/products/large/72163_0.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3>REDMOND RI-C218 Red</h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/shoe-for-men/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="chucks-1275904_640" title="chucks-1275904_640" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/chucks-1275904_640-400x400.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Shoe For Men</h3>
 
-                        <span class="price"  style="font-size: 20px;color:green" ><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">4559.00</span>&#8381</span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=94" data-quantity="1" data-product_id="94" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Купить</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>65.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=94" data-quantity="1" data-product_id="94" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-90 product type-product status-publish has-post-thumbnail product_cat-men-collection last instock shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/skate-shoe/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="https://www.premier-techno.ru/upload/iblock/063/063c02c3c03ed18930ffcf18af8e27f2.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="skate-shoe" title="skate-shoe" srcset="https://www.premier-techno.ru/upload/iblock/063/063c02c3c03ed18930ffcf18af8e27f2.jpg 300w, https://www.premier-techno.ru/upload/iblock/063/063c02c3c03ed18930ffcf18af8e27f2.jpg 150w, https://www.premier-techno.ru/upload/iblock/063/063c02c3c03ed18930ffcf18af8e27f2.jpg 180w, https://www.premier-techno.ru/upload/iblock/063/063c02c3c03ed18930ffcf18af8e27f2.jpg 400w, https://www.premier-techno.ru/upload/iblock/063/063c02c3c03ed18930ffcf18af8e27f2.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Пылесос SCARLETT IS-580</h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/skate-shoe/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/skate-shoe-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="skate-shoe" title="skate-shoe" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/skate-shoe-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/skate-shoe-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/skate-shoe-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/skate-shoe-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/skate-shoe.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Skate shoe</h3>
 
-                        <span class="price"  style="font-size: 20px;color:green" ><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">4 599.00</span>&#8381</span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=90" data-quantity="1" data-product_id="90" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Купить</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>66.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=90" data-quantity="1" data-product_id="90" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
                 <li class="post-88 product type-product status-publish has-post-thumbnail product_cat-men-collection first instock shipping-taxable purchasable product-type-simple">
-                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/male-shirts/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://www.conrad.com/medias/global/ce/3000_3999/3900/3990/3995/399572_RB_01_FB.EPS_1000.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="man-1150037_1920" title="man-1150037_1920" srcset="http://www.conrad.com/medias/global/ce/3000_3999/3900/3990/3995/399572_RB_01_FB.EPS_1000.jpg 300w, http://www.conrad.com/medias/global/ce/3000_3999/3900/3990/3995/399572_RB_01_FB.EPS_1000.jpg 150w, http://www.conrad.com/medias/global/ce/3000_3999/3900/3990/3995/399572_RB_01_FB.EPS_1000.jpg 180w, http://www.conrad.com/medias/global/ce/3000_3999/3900/3990/3995/399572_RB_01_FB.EPS_1000.jpg 400w,http://www.conrad.com/medias/global/ce/3000_3999/3900/3990/3995/399572_RB_01_FB.EPS_1000.jpg 600w " sizes="(max-width: 300px) 100vw, 300px" /><h3>Электробритва PHILIPS RQ1175</h3>
+                    <a href="http://demo.wenthemes.com/clean-commerce-pro/product/male-shirts/" class="woocommerce-LoopProduct-link"><img width="300" height="300" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/man-1150037_1920-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="man-1150037_1920" title="man-1150037_1920" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/man-1150037_1920-300x300.jpg 300w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/man-1150037_1920-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/man-1150037_1920-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/man-1150037_1920-600x600.jpg 600w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/man-1150037_1920-400x400.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" /><h3>Male shirts</h3>
 
-                        <span class="price"  style="font-size: 20px;color:green" ><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">8 389.00</span>&#8381</span></span>
-                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=88" data-quantity="1" data-product_id="88" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Купить</a></li>
+                        <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>120.00</span></span>
+                    </a><a rel="nofollow" href="/clean-commerce-pro/?add-to-cart=88" data-quantity="1" data-product_id="88" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></li>
 
 
             </ul><!-- .products -->
 
         </div><!-- .woocommerce -->
     </div> <!-- .inner-wrapper -->
-    </div></aside><aside id="clean-commerce-latest-news-2" class="widget clean_commerce_widget_latest_news"><div class="container"><h2 class="widget-title"><span>Новости из Мира технологий </span></h2>
+    </div></aside><aside id="clean-commerce-latest-news-2" class="widget clean_commerce_widget_latest_news"><div class="container"><h2 class="widget-title"><span>Latest Blog</span></h2>
 
         <div class="latest-news-widget latest-news-col-3">
 
@@ -596,26 +552,25 @@
                 <div class="latest-news-item">
 
                     <div class="latest-news-thumb">
-                        <a href="https://hi-news.ru/phone/mwc-nokia-3310-vozvrashhenie-legendy.html">
-                            <img width="600" height="600" src="https://hi-news.ru/wp-content/uploads/2017/02/3310.jpg" class="aligncenter wp-post-image" alt="" srcset="https://hi-news.ru/wp-content/uploads/2017/02/3310.jpg 400w, https://hi-news.ru/wp-content/uploads/2017/02/3310.jp 150w, https://hi-news.ru/wp-content/uploads/2017/02/3310.jpg 180w, https://hi-news.ru/wp-content/uploads/2017/02/3310.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />											</a>
+                        <a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title-3/">
+                            <img width="400" height="400" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-400x400.jpg" class="aligncenter wp-post-image" alt="" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/product-slide2-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />											</a>
                     </div><!-- .latest-news-thumb -->
                     <div class="latest-news-text-wrap">
 
                         <div class="latest-news-text-content">
                             <h3 class="latest-news-title">
-                                <a href="https://hi-news.ru/phone/mwc-nokia-3310-vozvrashhenie-legendy.html">NOKIA 3310. ВОЗВРАЩЕНИЕ ЛЕГЕНДЫ</a>
+                                <a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title-3/">Latest New Title</a>
                             </h3><!-- .latest-news-title -->
 
                             <div class="latest-news-summary">
-                                <p>Проходящая прямо сейчас в Барселоне выставка Mobile World Congress 2017 обещает стать интересной для всех любителей мобильной электроники...</p>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor...</p>
                             </div><!-- .latest-news-summary -->
                         </div><!-- .latest-news-text-content -->
 
                         <div class="latest-news-meta">
                             <ul>
-                                <li class="news-date-meta"><span class="latest-news-date">28 Февраля 2017</span></li>
-                                <li class="news-read-more"><a href="https://hi-news.ru/phone/mwc-nokia-3310-vozvrashhenie-legendy.html">Читать далее
-                                    <span class="screen-reader-text">"IPHONE — 10 ЛЕТ СТАТИСТИКИ НЕВЕРОЯТНОГО УСПЕХА"</span>
+                                <li class="news-date-meta"><span class="latest-news-date">15 Jan 2017</span></li>
+                                <li class="news-read-more"><a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title-3/">Read more<span class="screen-reader-text">"Latest New Title"</span>
                                 </a></li>
                             </ul>
                         </div><!-- .latest-news-meta -->
@@ -628,25 +583,25 @@
                 <div class="latest-news-item">
 
                     <div class="latest-news-thumb">
-                        <a href="https://hi-news.ru/phone/iphone-10-let-statistiki-neveroyatnogo-uspexa.html">
-                            <img width="400" height="400" src="https://hi-news.ru/wp-content/uploads/2017/01/1_iPhone_7-650x366.jpg" class="aligncenter wp-post-image" alt="" srcset="https://hi-news.ru/wp-content/uploads/2017/01/1_iPhone_7-650x366.jpg 400w, https://hi-news.ru/wp-content/uploads/2017/01/1_iPhone_7-650x366.jpg  150w, https://hi-news.ru/wp-content/uploads/2017/01/1_iPhone_7-650x366.jpg 180w, https://hi-news.ru/wp-content/uploads/2017/01/1_iPhone_7-650x366.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />											</a>
+                        <a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title-2/">
+                            <img width="400" height="400" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothing-964880_640-400x400.jpg" class="aligncenter wp-post-image" alt="" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothing-964880_640-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothing-964880_640-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothing-964880_640-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothing-964880_640-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />											</a>
                     </div><!-- .latest-news-thumb -->
                     <div class="latest-news-text-wrap">
 
                         <div class="latest-news-text-content">
                             <h3 class="latest-news-title">
-                                <a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title-2/">IPHONE — 10 ЛЕТ СТАТИСТИКИ НЕВЕРОЯТНОГО УСПЕХА</a>
+                                <a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title-2/">Latest New Title</a>
                             </h3><!-- .latest-news-title -->
 
                             <div class="latest-news-summary">
-                                <p>9 января стало одной из самых значимых дат в истории цифровых технологий. В 2007 году именно в этот день на Macworld в Moscone Center (Сан-Франциско) Стивом Джобсом был представлен первый iPhone, с которого и началась эпоха смартфонов.</p>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor.</p>
                             </div><!-- .latest-news-summary -->
                         </div><!-- .latest-news-text-content -->
 
                         <div class="latest-news-meta">
                             <ul>
-                                <li class="news-date-meta"><span class="latest-news-date">28 Feb 2017</span></li>
-                                <li class="news-read-more"><a href="https://hi-news.ru/phone/iphone-10-let-statistiki-neveroyatnogo-uspexa.html">Читать далее<span class="screen-reader-text">"IPHONE — 10 ЛЕТ СТАТИСТИКИ НЕВЕРОЯТНОГО УСПЕХА"</span>
+                                <li class="news-date-meta"><span class="latest-news-date">15 Jan 2017</span></li>
+                                <li class="news-read-more"><a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title-2/">Read more<span class="screen-reader-text">"Latest New Title"</span>
                                 </a></li>
                             </ul>
                         </div><!-- .latest-news-meta -->
@@ -659,25 +614,25 @@
                 <div class="latest-news-item">
 
                     <div class="latest-news-thumb">
-                        <a href="https://hi-news.ru/gadgets/kompaniya-micro-mote-sozdala-samyj-malenkij-v-mire-kompyuter.html">
-                            <img width="400" height="400" src="https://hi-news.ru/wp-content/uploads/2017/02/Micromote.jpg" class="aligncenter wp-post-image" alt="" srcset="https://hi-news.ru/wp-content/uploads/2017/02/Micromote.jpg 400w, https://hi-news.ru/wp-content/uploads/2017/02/Micromote.jpg 150w, https://hi-news.ru/wp-content/uploads/2017/02/Micromote.jpg 180w, https://hi-news.ru/wp-content/uploads/2017/02/Micromote.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />											</a>
+                        <a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title/">
+                            <img width="400" height="400" src="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothes-922988_640-400x400.jpg" class="aligncenter wp-post-image" alt="" srcset="http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothes-922988_640-400x400.jpg 400w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothes-922988_640-150x150.jpg 150w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothes-922988_640-180x180.jpg 180w, http://demo.wenthemes.com/clean-commerce-pro/wp-content/uploads/sites/37/2017/01/clothes-922988_640-300x300.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />											</a>
                     </div><!-- .latest-news-thumb -->
                     <div class="latest-news-text-wrap">
 
                         <div class="latest-news-text-content">
                             <h3 class="latest-news-title">
-                                <a href="https://hi-news.ru/gadgets/kompaniya-micro-mote-sozdala-samyj-malenkij-v-mire-kompyuter.html">КОМПАНИЯ MICRO MOTE СОЗДАЛА САМЫЙ МАЛЕНЬКИЙ В МИРЕ КОМПЬЮТЕР</a>
+                                <a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title/">Latest New Title</a>
                             </h3><!-- .latest-news-title -->
 
                             <div class="latest-news-summary">
-                                <p>Компания Micro Mote представила рабочую модель компьютера объемом в 1 кубический миллиметр, причем вычислительной мощности этого «малыша» вполне достаточно для того, чтобы стать вычислительным центром самых разнообразных устройств: от небольших камер до медицинских приспособлений и другой миниатюрной техники все более популярного Интернета вещей.</p>
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor...</p>
                             </div><!-- .latest-news-summary -->
                         </div><!-- .latest-news-text-content -->
 
                         <div class="latest-news-meta">
                             <ul>
-                                <li class="news-date-meta"><span class="latest-news-date">28 Feb 2017</span></li>
-                                <li class="news-read-more"><a href="https://hi-news.ru/gadgets/kompaniya-micro-mote-sozdala-samyj-malenkij-v-mire-kompyuter.html">Чиать далее<span class="screen-reader-text">"КОМПАНИЯ MICRO MOTE СОЗДАЛА САМЫЙ МАЛЕНЬКИЙ В МИРЕ КОМПЬЮТЕР"</span>
+                                <li class="news-date-meta"><span class="latest-news-date">15 Jan 2017</span></li>
+                                <li class="news-read-more"><a href="http://demo.wenthemes.com/clean-commerce-pro/2017/01/15/latest-new-title/">Read more<span class="screen-reader-text">"Latest New Title"</span>
                                 </a></li>
                             </ul>
                         </div><!-- .latest-news-meta -->
